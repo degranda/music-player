@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="img-container">
+          <img src="./assets/diego.jpg" alt="" />
+        </div>
+        <div class="info">
+          <h2 class="title">Titulo de la cancion</h2>
+          <p class="artist">Nombre del Artista</p>
+        </div>
+        <audio src="/"></audio>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+          <div class="duration-wrapper">
+            <span id="current-time">0:00</span>
+            <span id="duration">3:00</span>
+          </div>
+          <div class="player-controls">
+            <span class="material-icons" id="prev" title="Previous">
+              skip_previous
+            </span>
+            <span class="material-icons play" id="play" title="Play">
+              play_arrow
+            </span>
+            <!-- <span class="material-icons" id="pause" title="Pause">
+              pause
+            </span> -->
+            <span class="material-icons" id="next" title="Next">
+              skip_next
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/index.js"></script>
+</html>
